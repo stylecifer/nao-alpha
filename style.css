@@ -134,6 +134,19 @@ a:hover {
 	color: #41a62a;
 }
 
+.livedemo li {
+list-style: none;
+height: 40px;
+width: 120px;
+background: url('http://localhost/nao/wp-content/themes/nao-alpha/images/livedemo.png') center center;
+}
+
+.livedemo li a:hover {
+height: 40px;
+width: 120px;
+background: url('http://localhost/nao/wp-content/themes/nao-alpha/images/livedemo-hover.png') center center;
+}
+
 h1,
 h2,
 h3,
