@@ -134,17 +134,22 @@ a:hover {
 	color: #41a62a;
 }
 
-.livedemo li {
-list-style: none;
-height: 40px;
-width: 120px;
-background: url('http://localhost/nao/wp-content/themes/nao-alpha/images/livedemo.png') center center;
+#livedemo a{
+	color:#FFFFFF;
+	text-decoration:none;
 }
-
-.livedemo li a:hover {
-height: 40px;
-width: 120px;
-background: url('http://localhost/nao/wp-content/themes/nao-alpha/images/livedemo-hover.png') center center;
+#livedemo{
+    background-color: #00baca;
+	border-radius: 0 2px 2px 0;  
+    color: #fff;  display: inline-block;
+	line-height: 1.2727272727;  
+    margin: 16px 4px 2px 0;  
+    padding: 14px 16px;  
+    position: relative;  
+    text-transform: uppercase;
+}
+#livedemo:hover {
+    background-color: #ff5a00;
 }
 
 h1,
